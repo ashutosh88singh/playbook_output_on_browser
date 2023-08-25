@@ -1,0 +1,4 @@
+firstly install the pip:- yum install python3-pip
+after that install flask :- pip install Flask
+run the app.py :- python app.py
+go with ip:5000 on browser 
