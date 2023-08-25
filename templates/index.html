@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Run Ansible Playbook</title>
+</head>
+<body>
+    <h1>Run Ansible Playbook</h1>
+    
+    {% if output %}
+    <h2>Playbook Output:</h2>
+    <pre>{{ output }}</pre>
+    {% endif %}
+    
+    <form method="post">
+        <button type="submit">Run Ansible Playbook</button>
+    </form>
+</body>
+</html>
+

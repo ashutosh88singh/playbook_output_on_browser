@@ -1,0 +1,8 @@
+---
+- name: create user
+  hosts: localhost
+  tasks:
+    - name: creation of user
+      user:
+        name: ram
+        state: present
